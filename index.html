@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MazaoData</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="Wrapper">
+      <section id="header">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3"
+        >
+          <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+          <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#">Tab 1</a>
+            <a class="p-2 text-dark" href="#">Tab 1</a>
+            <a class="p-2 text-dark" href="#">Tab 1</a>
+            <a class="p-2 text-dark" href="#">Tab 1</a>
+          </nav>
+          <a class="btn btn-outline-primary" href="#">Sign up</a>
+        </div>
+        <div class="header-text px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <h1>
+            Your Reliable Source of, <br />
+            Agricultural data
+          </h1>
+          <p class="lead text-muted">
+            Easy-to-use website for everyone. Find all information on trends
+            <br />
+            in demand data of Agricultural products digitally — all from one
+            place..
+          </p>
+          <div class="header-btn">
+            <a href="#" class="btn btn-info">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section id="cereals-data">
+        <h1 class="mt-4">Statistical Demand Data for Cereals</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="bar-graph">
+                <h2>Statistical Demand for Individual cereal products</h2>
+                <canvas id="cereal-bar" width="1600" height="900"></canvas>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="line-graph">
+                <h2>Statistical Demand curve for all cereals</h2>
+                <canvas
+                  id="cereal-line-graph"
+                  width="1600"
+                  height="900"
+                ></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <!--  -->
+      <section id="veg-data">
+        <h1 class="mt-4">Statistical Demand Data for Vegetables</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="bar-graph">
+                <h2>Statistical Demand for Individual vegetables</h2>
+                <canvas id="veg-bar" width="1600" height="900"></canvas>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="line-graph">
+                <h2>Statistical Demand curve for all vegetbales</h2>
+                <canvas id="veg-line-graph" width="1600" height="900"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
