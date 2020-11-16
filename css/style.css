@@ -10,6 +10,13 @@ body {
 .Wrapper {
   text-align: center;
 }
+
+nav a {
+  font-size: 22px;
+  font-weight: 22px;
+  color: #fff !important;
+}
+
 section {
   height: 100vh;
 }
